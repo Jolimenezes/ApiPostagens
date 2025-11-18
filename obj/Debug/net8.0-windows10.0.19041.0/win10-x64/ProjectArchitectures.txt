@@ -1,0 +1,1 @@
+D:\Jonatas2DS\PAM\ApiPostagens\ApiPostagens\ApiPostagens.csproj;x64
