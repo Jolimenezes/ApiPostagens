@@ -1,17 +1,11 @@
 ﻿using ApiPostagens.Models;
 using Newtonsoft.Json;
 
-namespace ApiPostagens
+namespace ApiPostagens.Services
 {
-    public partial class MainPage : ContentPage
+    internal static class PostagensServiceHelpers
     {
-
-        public MainPage()
-        {
-            InitializeComponent();
-        }
-
-        async private void BuscarBtn_Clicked(object sender, EventArgs e)
+        public static async Task<List<Postagem>?> GetPostagems(object sender, EventArgs e)
         {
             Postagem minhaPostagem = new Postagem();
 
@@ -26,13 +20,9 @@ namespace ApiPostagens
             {
                 string conteudo = await responseMessage.Content.ReadAsStringAsync();
                 postagens = JsonConvert.DeserializeObject<List<Postagem>>(conteudo);
-                TitleLbl.Text = postagens[0].title;
-                UserIdLbl.Text = Convert.ToString(postagens[0].userId);
-                IdLbl.Text = Convert.ToString(postagens[0].id);
-                BodyLbl.Text = postagens[0].body;
 
+                return postagens;
             }
         }
     }
-
 }

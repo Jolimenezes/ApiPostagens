@@ -1,20 +1,20 @@
-﻿using ApiPostagens.Models;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Reflection.Metadata.Ecma335;
+using System.Text;
+using System.Threading.Tasks;
+using Microsoft.Maui.Platform;
 using Newtonsoft.Json;
+using ApiPostagens.ViewModels;
+using ApiPostagens.Models;
 
-namespace ApiPostagens
+namespace ApiPostagens.Services
 {
-    public partial class MainPage : ContentPage
+    public class PostagensService
     {
-
-        public MainPage()
+        public static async Task<List<Postagem>?> GetPostagens()
         {
-            InitializeComponent();
-        }
-
-        async private void BuscarBtn_Clicked(object sender, EventArgs e)
-        {
-            Postagem minhaPostagem = new Postagem();
-
             string URI = "https://jsonplaceholder.typicode.com/posts";
 
             HttpClient httpClient = new HttpClient();
@@ -26,13 +26,13 @@ namespace ApiPostagens
             {
                 string conteudo = await responseMessage.Content.ReadAsStringAsync();
                 postagens = JsonConvert.DeserializeObject<List<Postagem>>(conteudo);
-                TitleLbl.Text = postagens[0].title;
-                UserIdLbl.Text = Convert.ToString(postagens[0].userId);
-                IdLbl.Text = Convert.ToString(postagens[0].id);
-                BodyLbl.Text = postagens[0].body;
 
+                return postagens;
+            }
+            else 
+            {
+                return null;
             }
         }
     }
-
 }

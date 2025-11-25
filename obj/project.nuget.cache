@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "FCWhG2X414o=",
+  "dgSpecHash": "2IImGlli4Ss=",
   "success": true,
   "projectFilePath": "D:\\Jonatas2DS\\PAM\\ApiPostagens\\ApiPostagens\\ApiPostagens.csproj",
   "expectedPackageFiles": [
+    "D:\\NugetPackages\\communitytoolkit.mvvm\\8.4.0\\communitytoolkit.mvvm.8.4.0.nupkg.sha512",
     "D:\\NugetPackages\\googlegson\\2.10.1.4\\googlegson.2.10.1.4.nupkg.sha512",
     "D:\\NugetPackages\\microsoft.extensions.configuration\\8.0.0\\microsoft.extensions.configuration.8.0.0.nupkg.sha512",
     "D:\\NugetPackages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",

@@ -30,25 +30,25 @@
     <AppXManifest Include="D:\Jonatas2DS\PAM\ApiPostagens\ApiPostagens\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2025-11-18T01:12:21.224</Modified>
+      <Modified>2025-11-25T00:11:18.497</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\Jonatas2DS\PAM\ApiPostagens\ApiPostagens\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2025-11-18T01:12:21.055</Modified>
+      <Modified>2025-11-25T00:11:18.340</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Jonatas2DS\PAM\ApiPostagens\ApiPostagens\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\ApiPostagens.runtimeconfig.json">
       <PackagePath>ApiPostagens.runtimeconfig.json</PackagePath>
-      <Modified>2025-11-18T01:12:20.687</Modified>
+      <Modified>2025-11-25T00:11:18.012</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Jonatas2DS\PAM\ApiPostagens\ApiPostagens\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\ApiPostagens.dll">
       <PackagePath>ApiPostagens.dll</PackagePath>
-      <Modified>2025-11-18T01:12:19.752</Modified>
+      <Modified>2025-11-25T00:11:16.981</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Jonatas2DS\PAM\ApiPostagens\ApiPostagens\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>ApiPostagens.exe</PackagePath>
-      <Modified>2025-11-18T01:12:19.766</Modified>
+      <Modified>2025-11-25T00:11:17.028</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Jonatas2DS\PAM\ApiPostagens\ApiPostagens\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -288,7 +288,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Jonatas2DS\PAM\ApiPostagens\ApiPostagens\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\ApiPostagens.deps.json">
       <PackagePath>ApiPostagens.deps.json</PackagePath>
-      <Modified>2025-11-18T01:12:20.563</Modified>
+      <Modified>2025-11-25T00:11:17.887</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\NugetPackages\microsoft.windows.sdk.net.ref\10.0.19041.57\lib\net8.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>
@@ -297,6 +297,10 @@
     <AppxPackagedFile Include="D:\NugetPackages\microsoft.windows.sdk.net.ref\10.0.19041.57\lib\net8.0\WinRT.Runtime.dll">
       <PackagePath>WinRT.Runtime.dll</PackagePath>
       <Modified>2024-11-11T17:23:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\NugetPackages\communitytoolkit.mvvm\8.4.0\lib\net8.0-windows10.0.17763\CommunityToolkit.Mvvm.dll">
+      <PackagePath>CommunityToolkit.Mvvm.dll</PackagePath>
+      <Modified>2024-12-12T07:54:40.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\NugetPackages\microsoft.extensions.configuration\8.0.0\lib\net8.0\Microsoft.Extensions.Configuration.dll">
       <PackagePath>Microsoft.Extensions.Configuration.dll</PackagePath>
