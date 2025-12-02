@@ -5,8 +5,19 @@
              Title="PostagensView">
     <VerticalStackLayout>
         <Label 
-            Text="Welcome to .NET MAUI!"
+            Text="{Binding Id}"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
+            <Label 
+            Text="{Binding Title}"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+            <Label 
+            Text ="{Binding Body}"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+            <Button
+            Text="Carregar"
+            Command="{Binding CarregarPostagensCommand}"/>
     </VerticalStackLayout>
 </ContentPage>

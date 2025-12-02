@@ -23,6 +23,7 @@ namespace ApiPostagens.Services
 
                 return postagens;
             }
+                return null;
         }
     }
 }

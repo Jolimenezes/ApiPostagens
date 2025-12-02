@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ApiPostagens.Models
 {
-    internal class Postagem
+    public class Postagem
     {
         public int userId { get; set; }
         public int id { get; set; }

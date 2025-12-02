@@ -30,13 +30,13 @@
     <AppXManifest Include="D:\Jonatas2DS\PAM\ApiPostagens\ApiPostagens\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2025-11-25T00:11:18.497</Modified>
+      <Modified>2025-12-02T00:28:09.674</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\Jonatas2DS\PAM\ApiPostagens\ApiPostagens\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2025-11-25T00:11:18.340</Modified>
+      <Modified>2025-12-02T00:20:03.907</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Jonatas2DS\PAM\ApiPostagens\ApiPostagens\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\ApiPostagens.runtimeconfig.json">
       <PackagePath>ApiPostagens.runtimeconfig.json</PackagePath>
@@ -44,11 +44,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Jonatas2DS\PAM\ApiPostagens\ApiPostagens\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\ApiPostagens.dll">
       <PackagePath>ApiPostagens.dll</PackagePath>
-      <Modified>2025-11-25T00:11:16.981</Modified>
+      <Modified>2025-12-02T00:28:09.433</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Jonatas2DS\PAM\ApiPostagens\ApiPostagens\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>ApiPostagens.exe</PackagePath>
-      <Modified>2025-11-25T00:11:17.028</Modified>
+      <Modified>2025-12-02T00:28:09.438</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Jonatas2DS\PAM\ApiPostagens\ApiPostagens\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -288,7 +288,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Jonatas2DS\PAM\ApiPostagens\ApiPostagens\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\ApiPostagens.deps.json">
       <PackagePath>ApiPostagens.deps.json</PackagePath>
-      <Modified>2025-11-25T00:11:17.887</Modified>
+      <Modified>2025-12-02T00:20:03.563</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\NugetPackages\microsoft.windows.sdk.net.ref\10.0.19041.57\lib\net8.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>
